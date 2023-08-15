@@ -27,18 +27,25 @@ let resumeData = {
     "website":"dheerajarya@gmail.com",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
+        "UniversityName":"Microverse",
+        "specialization":"React.js, JavaScript, Ruby, Ruby on Rails, Redux.js, Cascading Style Sheets (CSS), HTML, GitHub, Pair Programming",
         "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "YearOfPassing":"2023",
+        "Achievements":"Spent 1300+ hours mastering algorithms, data structures, and full-stack development while simultaneously developing projects with Ruby, Rails, JavaScript, React, and Redux. Developed skills in remote pair-programming using GitHub, industry-standard gitflow, and daily standups to communicate and collaborate with international remote developers."
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "UniversityName":"Kurukshetra University, Kurukshetra",
+        "specialization":"Master's Degree",
+        "MonthOfPassing":"May",
+        "YearOfPassing":"2011",
+        "Achievements":"Computer Science (Software)"
+      },
+      {
+        "UniversityName":"Panjab University, Chandigarh",
+        "specialization":"Master's Degree",
+        "MonthOfPassing":"Apr",
+        "YearOfPassing":"2006",
+        "Achievements":"Finance and Control"
       }
     ],
     "work":[
@@ -96,12 +103,16 @@ let resumeData = {
     ],
     "testimonials":[
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "description":"I had the pleasure of working with Dheeraj, and he's a top-notch Full Stack Developer. His expertise in front-end technologies such as JavaScript and React, combined with his knowledge of back-end technologies like Rails and SQL, make him an exceptional developer. He has a keen eye for detail and is passionate about writing clean, efficient, and maintainable code. Dheeraj is an excellent team player and has excellent communication skills. I highly recommend him for any Full Stack Developer position.",
+        "name":"Kevin Okoth - Kenya - Microverse"
       },
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "description":"Dheeraj is an exceptionally talented full-stack developer with a creative flair for front-end design. Their commitment to delivering high-quality results, combined with their excellent problem-solving skills and attention to detail, make them an invaluable asset to any development team. Dheeraj's ability to meet deadlines and go the extra mile to ensure project success is truly commendable. I was consistently impressed by their technical expertise, creativity in front-end designs, and dedication to excellence in all aspects of full-stack development. I highly recommend Dheeraj for their outstanding skills, work ethic, and commitment to delivering exceptional results",
+        "name":"Amen Musingarimi - Zimbabwe - Microverse"
+      },
+      {
+        "description":"Dheeraj's most remarkable qualities is his dedication to his work. He approaches each project with a high level of professionalism and consistently delivers results that exceed expectations. He is also an excellent collaborator and valuable team member, always willing to share his knowledge and expertise to help the team achieve its goals. Dheeraj has experience with remote work and is an excellent communicator. In addition to his technical skills, Dheeraj is an exceptional pair programmer. He enjoys working collaboratively with others and has a talent for explaining technical concepts to non-technical team members. Overall, Dheeraj is an outstanding software developer",
+        "name":"Shubham Bhoyar - India - Microverse"
       }
     ]
   }

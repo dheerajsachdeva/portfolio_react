@@ -1,7 +1,24 @@
 import React, { Component } from 'react';
+import { useTypewriter, Cursor } from 'react-simple-typewriter';
+
 export default class Header extends Component {
+  
   render() {
     let resumeData = this.props.resumeData;
+    function Typewriter() {
+      const [text] = useTypewriter({
+        words: ['Software Developer', 'Full Stack Developer', 'Frontend Developer', 'Backend Developer'],
+        loop: true
+      });
+      return (
+        <>
+        <h3 style={{ color: '#fff', fontFamily: 'sans-serif' }}>
+          I am a <span style = {{fontWeight: 'bold', color: 'orange'}}>{text}</span><Cursor />.
+        </h3>
+        <p>{resumeData.roleDescription}</p>
+        </>
+      );
+    }
     return (
       <React.Fragment>
       
@@ -21,8 +38,9 @@ export default class Header extends Component {
 
          <div className="row banner">
             <div className="banner-text">
-               <h1 className="responsive-headline">I am {resumeData.name}.</h1>
-               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I am a {resumeData.role}.{resumeData.roleDescription}
+            HI THERE 👋🏽, I'M
+               <h1 className="responsive-headline"> {resumeData.name}</h1>
+               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}><Typewriter />
                </h3>
                <hr/>
                <ul className="social">

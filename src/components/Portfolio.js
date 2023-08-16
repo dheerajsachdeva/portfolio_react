@@ -1,7 +1,15 @@
 import React, { Component } from 'react';
 export default class Porfolio extends Component {
+  handleLiveButtonClick = (link) => {
+    window.open(link, '_blank');
+  };
+
+  handleSourceButtonClick = (link) => {
+    window.open(link, '_blank');
+  };
   render() {
     let resumeData = this.props.resumeData;
+    
     return (
       <section id="portfolio">
       <div className="row">
@@ -13,15 +21,21 @@ export default class Porfolio extends Component {
               return(
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href="#modal-01">
+                    {/* <a href="#modal-01"> */}
                       <img src={`${item.imgurl}`} className="item-img"/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
                           <p>{item.description}</p>
+                          <button onClick={() => this.handleLiveButtonClick(item.seelive)} className="btn-primary">
+        See Live
+      </button>
+      <button onClick={() => this.handleSourceButtonClick(item.seesource)} className="btn-danger">
+        See Source
+      </button>
                         </div>
                       </div>
-                    </a>
+                    {/* </a> */}
                   </div>
                 </div>
               )

@@ -13,3 +13,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* Style for the submit button */
+input[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect */
+input[type="submit"]:hover {
+  background-color: #2980b9;
+  transform: scale(1.10);
+}
+
+.item-img {
+  height: 215px;
+  width: 215px;
+}
+
+.btn{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2px;
+}
+
+.small-button {
+  padding: 6px 12px;
+  font-size: 12px;
+  border: none;
+  background-color: #3498db;
+  color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.small-button:hover {
+  background-color: #2980b9;
+}
+
+

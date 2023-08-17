@@ -27,12 +27,14 @@ export default class Porfolio extends Component {
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
                           <p>{item.description}</p>
-                          <button onClick={() => this.handleLiveButtonClick(item.seelive)} className="btn-primary">
+                          <div className='btn'>
+                          <button onClick={() => this.handleLiveButtonClick(item.seelive)} className="small-button">
         See Live
       </button>
-      <button onClick={() => this.handleSourceButtonClick(item.seesource)} className="btn-danger">
+      <button onClick={() => this.handleSourceButtonClick(item.seesource)} className="small-button">
         See Source
       </button>
+      </div>
                         </div>
                       </div>
                     {/* </a> */}

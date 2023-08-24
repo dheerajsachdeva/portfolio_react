@@ -72,14 +72,15 @@ export default  class Resume extends Component {
                {resumeData.skillsDescription}
                </p>
 
-   				<div className="bars">
+   				<div className="">
 
-   				   <ul className="skills">
+   				   <ul className="skills" style = {{display: 'grid', gridTemplateRows: 'repeat(3, auto)', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px', width: '80%'
+        }}>
                 {
                   resumeData.skills && resumeData.skills.map((item) => {
                     return(
-                      <li>
-                      <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
+                      <li style = {{display: 'flex', justifyContent: 'center', padding: '10px', border: '1px solid #ccc', backgroundColor: '#f9f9f9'}}>
+                      <span className={` ${item.skillname.toLowerCase()}`}>
                       </span><em>{item.skillname}</em>
                       </li>
                     )

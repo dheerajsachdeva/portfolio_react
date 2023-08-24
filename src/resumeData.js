@@ -98,6 +98,18 @@ let resumeData = {
       },
       {
         "skillname":"Ruby on Rails"
+      },
+      {
+        "skillname":"Collaborative Problem Solving"
+      },
+      {
+        "skillname":"Pair-Programming"
+      },
+      {
+        "skillname":"Project Development"
+      },
+      {
+        "skillname":"Teamwork"
       }
     ],
     "portfolio":[
@@ -112,7 +124,7 @@ let resumeData = {
         "name":"The Recipe App",
         "description":"Your Ultimate Kitchen Assistant 🍳📝",
         "imgurl":"images/portfolio/recipe.jpg",
-        "seelive": "https://github.com/dheerajsachdeva/recipe-app",
+        "seelive": "https://recipe-oyd1.onrender.com",
         "seesource": "https://github.com/dheerajsachdeva/recipe-app"
       },
       {

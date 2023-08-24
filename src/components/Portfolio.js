@@ -15,7 +15,7 @@ export default class Porfolio extends Component {
       <div className="row">
         <div className="twelve columns collapsed">
           <h1>Check Out Some of My Works.</h1>
-          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+          <div style = {{display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))'}}>
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
@@ -27,7 +27,12 @@ export default class Porfolio extends Component {
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
                           <p>{item.description}</p>
-                          <div className='btn'>
+                          
+                        </div>
+                      </div>
+                    {/* </a> */}
+                  </div>
+                  <div className='btn'>
                           <button onClick={() => this.handleLiveButtonClick(item.seelive)} className="small-button">
         See Live
       </button>
@@ -35,10 +40,6 @@ export default class Porfolio extends Component {
         See Source
       </button>
       </div>
-                        </div>
-                      </div>
-                    {/* </a> */}
-                  </div>
                 </div>
               )
             })

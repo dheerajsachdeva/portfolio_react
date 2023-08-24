@@ -32,14 +32,15 @@ input[type="submit"]:hover {
 }
 
 .item-img {
-  height: 215px;
-  width: 215px;
+  height: 300px;
+  width: 300px;
 }
 
 .btn{
-  display: flex;
-  flex-direction: column;
-  margin-top: 2px;
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+  margin-top: 10px;
 }
 
 .small-button {

@@ -40,7 +40,7 @@ input[type="submit"]:hover {
    display: flex;
    justify-content: center;
    gap: 10px;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 .small-button {
@@ -56,6 +56,10 @@ input[type="submit"]:hover {
 
 .small-button:hover {
   background-color: #2980b9;
+}
+
+.new_port_design{
+  margin-top: 10px;
 }
 
 

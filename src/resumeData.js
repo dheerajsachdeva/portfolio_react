@@ -116,6 +116,7 @@ let resumeData = {
       {
         "name":"Car Hiring App",
         "description":"A Ruby on Rails and React Project 🚗🚀",
+        "description1":"👉 Car Hiring App is a group project I created, combining the power of Ruby on Rails and React to revolutionize the test drive booking experience. 💼 Car Hiring App showcases my passion for creating user-friendly applications and integrating cutting-edge technologies.",
         "imgurl":"images/portfolio/carhire.jpg",
         "seelive": "https://book-an-appointment-frontend.onrender.com",
         "seesource": "https://github.com/dheerajsachdeva/Book-An-Appointment-Backend"
@@ -123,13 +124,15 @@ let resumeData = {
       {
         "name":"The Recipe App",
         "description":"Your Ultimate Kitchen Assistant 🍳📝",
+        "description1":"👉 The Recipe App is a smart and efficient tool designed to streamline your cooking experience, keeping track of all your favorite recipes, ingredients, and inventory.",
         "imgurl":"images/portfolio/recipe.jpg",
         "seelive": "https://recipe-oyd1.onrender.com",
         "seesource": "https://github.com/dheerajsachdeva/recipe-app"
       },
       {
         "name":"Expensify - Budget app on rails",
-        "description":"To keep track of the expense made in different categories",  
+        "description":"To keep track of the expense made in different categories", 
+        "description1":"👉 Expensify is a powerful budget management application designed and developed using Ruby on Rails. Expensify showcases my expertise in Ruby on Rails and my dedication to building practical, user-friendly applications.", 
         "imgurl":"images/portfolio/budget.jpg",
         "seelive": "https://expensify-ta0p.onrender.com/",
         "seesource": "https://github.com/dheerajsachdeva/budget"
@@ -138,12 +141,14 @@ let resumeData = {
         "name":"Stock App - React App",
         "description":"is about fetching the list of Stock List and show individual quote details for each stock",
         "imgurl":"images/portfolio/stock.jpg",
+        "description1":"Stock App (React App) is about fetching the list of Stock List and show individual quote details for each stock",
         "seelive": "https://stock-946q.onrender.com/",
         "seesource": "https://github.com/dheerajsachdeva/Capstone3-Stock-APP"
       },
       {
         "name":"Space Travellers Hub - React App",
         "description":"Worked with the real live data from the SpaceX API 🚀",
+        "description1":"Worked with the real live data from the SpaceX API. My task was to build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.",
         "imgurl":"images/portfolio/space.jpg",
         "seelive": "https://space-travellers-hub-325d.onrender.com/",
         "seesource": "https://github.com/dheerajsachdeva/space-travelers-hub"
@@ -152,6 +157,7 @@ let resumeData = {
         "name":"Bookstore",
         "description":"Bookstore is a React application for adding and deleting book title and author using redux toolkit",
         "imgurl":"images/portfolio/bookstore.jpg",
+        "description1":"Bookstore is a React application for adding and deleting book title and author using redux toolkit",
         "seelive": "https://bookstore-1y16.onrender.com/",
         "seesource": "https://github.com/dheerajsachdeva/bookstore"
       },
@@ -159,12 +165,14 @@ let resumeData = {
         "name":"Math Magicians",
         "description":"Math Magician is an online calculator app that makes solving math problems easy and fast.",  
         "imgurl":"images/portfolio/math.jpg",
+        "description1":"Math Magician is an online calculator app that makes solving math problems easy and fast. It also includes random motivational quotes to keep you inspired.",
         "seelive": "https://math-magicians-fry2.onrender.com/",
         "seesource": "https://github.com/dheerajsachdeva/math-magicians"
       },
       {
         "name":"Go Movie",
         "description":"API Fetching in Javascript using Comments, Likes and pop up modal",
+        "description1":"API Fetching in Javascript using Comments, Likes and pop up modal",
         "imgurl":"images/portfolio/movie.jpg",
         "seelive": "https://dheerajsachdeva.github.io/capstone2/dist/",
         "seesource": "https://github.com/dheerajsachdeva/capstone2"
@@ -172,6 +180,7 @@ let resumeData = {
       {
         "name":"Tennis Summit 2023",
         "description":"Web Responsive Website - Used specific template to build the copy",
+        "description1":"Tennis Summit 2023 - Web Responsive Website - Used specific template to build the copy",
         "imgurl":"images/portfolio/tennis.jpg",
         "seelive": "https://dheerajsachdeva.github.io/firstcapstone/",
         "seesource": "https://github.com/dheerajsachdeva/firstcapstone"

@@ -15,12 +15,12 @@ export default class Porfolio extends Component {
       <div className="row">
         <div className="twelve columns collapsed">
           <h1>Check Out Some of My Works.</h1>
-          <div style = {{display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))'}}>
+          <div style = {{display: 'grid',  gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))'}}>
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
+                <div className="columns portfolio-item" style = {{padding: '10px', border: '1px solid orange',borderRadius: '10px', margin: '5px 5px'}}>
+                  <div className="item-wrap" >
                     {/* <a href="#modal-01"> */}
                       <img src={`${item.imgurl}`} className="item-img"/>
                       <div className="overlay">
@@ -32,6 +32,11 @@ export default class Porfolio extends Component {
                       </div>
                     {/* </a> */}
                   </div>
+                  <div className="new_port_design">
+                          <h5>{item.name}</h5>
+                          <p>{item.description1}</p>
+                          
+                        </div>
                   <div className='btn'>
                           <button onClick={() => this.handleLiveButtonClick(item.seelive)} className="small-button">
         See Live
